@@ -2,13 +2,13 @@
     "name": "Link lister",
     "description": "User can save the link which is looking it, can save the link by input and delete all of them",
     "version": "1.0",
-    "manifest_version": 1,
+    "manifest_version": 3,
     "permissions": [
       "tabs"
     ],
     "action": {
       "default_title": "Link lister",
       "default_popup": "index.html",
-      "default_icon": "link.png"
+      "default_icon": "link-cilek.png"
     }
   }

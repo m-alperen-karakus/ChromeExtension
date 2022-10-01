@@ -3,6 +3,7 @@ body{
     padding: 10px;
     font-family:'Inter';
     background-color: #1F2937 ;
+    min-width: 400px;
 }
 
 h1{
@@ -54,7 +55,7 @@ button{
 
 ul{
     background-color: #273549;
-    min-height: 500px;
+    min-height: 100px;
     border-radius: 12px;
     color: #fff;
     padding-inline: 50px;
