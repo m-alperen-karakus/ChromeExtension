@@ -33,10 +33,7 @@ input{
     width: calc(100% - 40px);
     color: #fff;
 }
-input:focus{
-    outline: none;
-    border: 3px solid #9CA3AF;
-}
+input:focus{ outline: none; border: 3px solid #9CA3AF; }
 
 button{
     background: #10B981;
@@ -63,4 +60,6 @@ ul{
     padding-inline: 50px;
     padding-block: 25px;
 }
+
+li{ overflow-wrap: break-word; margin: 10px 0px; }
 
