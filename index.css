@@ -1,14 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap');
 body{
     padding: 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Inter';
+    background-color: #1F2937 ;
+}
 
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+}
+
+h2{
+    color: #4ADF86;
+    text-align: center;
+    font-size: 4vw;
+}
+span{
+    color: #881337;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input{
-
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: 3px solid #1F2937;
+    padding: 6px;
+    background-color:#273549;
+    margin: 20px;
+    font-size: 20px;
+    width: calc(100% - 40px);
+    color: #fff;
+}
+input:focus{
+    outline: none;
+    border: 3px solid #9CA3AF;
 }
 
 button{
-    
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    padding: 12px 18px;
+    color: #fff;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul{
+    background-color: #273549;
+    min-height: 500px;
+    border-radius: 12px;
+    color: #fff;
+    padding-inline: 50px;
+    padding-block: 25px;
 }
 
